@@ -65,6 +65,7 @@ class Home extends React.Component {
 
     return (
       <section className='container'>
+        <h1>Title</h1>
         <div className="search-container">
           {!!searchValue && (
             <>
@@ -89,7 +90,7 @@ class Home extends React.Component {
         
         
         <div className="button-container">
-          <h1>Title</h1>
+          
           {!searchValue &&(
                       <Button 
                       text="Load more posts" 
