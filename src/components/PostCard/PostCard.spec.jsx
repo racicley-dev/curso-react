@@ -22,7 +22,7 @@ describe('<PostCard />', ()=>{
     //Teste de snapshot
     it('should match snapshot', ()=>{
         const { container } = render(<PostCard {...props} />);
-        expect(container.firstChild).toMatchSnapshot();
+        expect( container.firstChild ).toMatchSnapshot();
 
 
     });
